@@ -23,7 +23,7 @@ def recognition_captcha(data):
     with open( filename ,'wb') as fb:
         fb.write( data )    
     
-    appid = 'appid' # 接入优图服务，注册账号获取 
+    # appid = 'appid' # 接入优图服务，注册账号获取 
     secret_id = 'secret_id'  
     secret_key = 'secret_key'  
     userid= 'userid' 
